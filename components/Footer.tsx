@@ -64,7 +64,9 @@ export default function Footer() {
               Enterijeri Kankan
             </h3>
 
-            <p className=" font-bold ">Vaš partner za savršen enterijer!</p>
+            <p className=" font-bold ">
+              Vaš partner za savršen enterijer i najlepši separe!
+            </p>
           </div>
         </div>
         <div className="mt-5 pt-5 md:mt-8 md:pt-8 border-t border-muted/40 text-center text-muted">

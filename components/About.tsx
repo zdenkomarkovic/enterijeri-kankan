@@ -2,8 +2,8 @@ import React from "react";
 
 const About = () => {
   return (
-    <div>
-      <div className="container px-2 md:px-28 mx-auto py-10 md:py-20 space-y-6 md:space-y-16 text-lg md:text-2xl text-muted-foreground">
+    <div className="bg-muted-foreground">
+      <div className="container px-2 md:px-28 mx-auto py-10 md:py-20 space-y-6 md:space-y-16 text-lg md:text-2xl text-muted">
         <h2 className="text-2xl md:text-5xl text-center">
           <span className="font-bold text-primary">Enterijeri Kankan</span> –
           Vrhunski nameštaj po meri za ugostiteljske objekte
@@ -20,7 +20,11 @@ const About = () => {
           <span className="font-bold text-primary">
             po meri i želji klijenata
           </span>
-          , uz korišćenje najboljih materijala i savremenih tehnika proizvodnje.
+          .Proizvodimo{" "}
+          <span className="font-bold text-primary">
+            separe stolice, šankove, zidne obloge
+          </span>{" "}
+          uz korišćenje najboljih materijala i savremenih tehnika proizvodnje.
           Naši proizvodi i usluge dostupni su u{" "}
           <span className="font-bold text-primary">
             celoj Srbiji i inostranstvu
@@ -50,7 +54,7 @@ const About = () => {
             </li>
             <li>
               <span className="font-bold text-primary">
-                Separei i tapacirani elementi
+                Separe i tapacirani elementi
               </span>{" "}
               – za udobnost i ekskluzivan izgled.
             </li>

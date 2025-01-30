@@ -6,7 +6,7 @@ import { FaAngellist } from "react-icons/fa6";
 
 const WhyUs = () => {
   return (
-    <div>
+    <div className="bg-muted-foreground text-muted-foreground">
       <div className="container px-2 md:px-4 mx-auto py-10 md:py-20 border-t-2 space-y-10 md:space-y-20">
         <h2 className="text-2xl md:text-5xl text-center text-primary font-bold">
           Zašto Enterijeri Kankan

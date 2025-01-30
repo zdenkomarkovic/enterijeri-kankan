@@ -61,12 +61,15 @@ const Hero = () => {
         </CarouselContent>
       </Carousel>
       <div className="relative flex flex-col gap-6 w-full items-center justify-center text-muted z-[1] text-center">
-        <h1 className="text-primary text-[2.8rem] md:text-[4rem] font-bold max-w-[900px] uppercase leading-[1.2] px-4">
-          Enterijeri Kankan
+        <h1 className="text-[1.1rem]   md:text-[2.5rem] leading-[1.5] px-4">
+          <span className="text-primary block text-[2.8rem] md:text-[4rem]  uppercase font-bold">
+            Enterijeri Kankan
+          </span>{" "}
+          Separei i nameštaj po meri za ugostiteljske objekte
         </h1>
-        <h2 className=" text-[1.1rem]   md:text-[2.5rem] max-w-[800px] px-4">
+        {/* <h2 className="  max-w-[800px] px-4">
           Nameštaj po meri za ugostiteljske objekte
-        </h2>
+        </h2> */}
         <div className="flex flex-col gap-4 md:flex-row">
           <Link href="/proizvodi">
             <motion.button
