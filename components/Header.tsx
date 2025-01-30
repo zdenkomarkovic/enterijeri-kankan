@@ -92,7 +92,7 @@ const MobileMenu = () => (
   </Sheet>
 );
 
-const DesktopNav = ({ scrolled }) => (
+const DesktopNav = ({ scrolled }: { scrolled: boolean }) => (
   <ul
     className={`hidden gap-8 lg:flex text-xl ${
       scrolled ? "text-muted-foreground" : "text-muted"
