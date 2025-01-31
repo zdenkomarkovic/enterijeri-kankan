@@ -23,7 +23,7 @@ export default function Footer() {
 
               <li>
                 <Link href="/" className="text-muted hover:text-primary">
-                  Usluge
+                  Proizvodi
                 </Link>
               </li>
 
@@ -43,14 +43,13 @@ export default function Footer() {
               </a>
             </div>
             <div>
-              <a href="mailto:">
-                <p className="text-muted text-wrap">Email:</p>
+              <a href="mailto:kankan732@gmail.com">
+                <p className="text-muted text-wrap">
+                  Email:kankan732@gmail.com
+                </p>
               </a>
             </div>
             <div className="flex space-x-4 justify-center md:justify-start">
-              {/* <a href="#" className="text-muted-foreground hover:text-primary">
-                <Facebook />
-              </a> */}
               <a
                 href="https://www.instagram.com/enterijeri_kankan/"
                 className="text-muted hover:text-primary"
@@ -71,7 +70,13 @@ export default function Footer() {
         </div>
         <div className="mt-5 pt-5 md:mt-8 md:pt-8 border-t border-muted/40 text-center text-muted">
           <a href="https://www.manikamwebsolutions.com/" target="_blank">
-            <p>&copy; 2024 ManikamWebSolutions. Sva prava zadržana.</p>
+            <p>
+              &copy; 2024{" "}
+              <span className="font-bold text-primary">
+                ManikamWebSolutions
+              </span>
+              . Sva prava zadržana.
+            </p>
           </a>{" "}
         </div>
       </div>

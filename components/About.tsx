@@ -14,15 +14,15 @@ const About = () => {
           firma sa sedištem u{" "}
           <span className="font-bold text-primary">Beogradu</span>,
           specijalizovana za proizvodnju i{" "}
-          <span className="font-bold text-primary">opremanje enterijera</span>
-          opremanje enterijera ugostiteljskih objekata, hotela i apartmana. Naš
-          tim stručnih majstora i dizajnera izrađuje visokokvalitetan nameštaj{" "}
+          <span className="font-bold text-primary">opremanje enterijera </span>
+          ugostiteljskih objekata, hotela i apartmana. Naš tim stručnih majstora
+          i dizajnera izrađuje visokokvalitetan nameštaj{" "}
           <span className="font-bold text-primary">
             po meri i želji klijenata
           </span>
-          .Proizvodimo{" "}
+          . Proizvodimo{" "}
           <span className="font-bold text-primary">
-            separe stolice, šankove, zidne obloge
+            separe, stolice, stolove, zidne obloge
           </span>{" "}
           uz korišćenje najboljih materijala i savremenih tehnika proizvodnje.
           Naši proizvodi i usluge dostupni su u{" "}
@@ -58,7 +58,7 @@ const About = () => {
               </span>{" "}
               – za udobnost i ekskluzivan izgled.
             </li>
-            <li>
+            {/* <li>
               <span className="font-bold text-primary">
                 Šankove i radne površine
               </span>{" "}
@@ -76,7 +76,7 @@ const About = () => {
                 Kuhinje i bar pultovi
               </span>{" "}
               – prilagođeni potrebama ugostiteljskih objekata.
-            </li>
+            </li> */}
           </ul>
         </div>
         <h3 className=" text-xl md:text-4xl text-center text-primary font-bold">
@@ -94,7 +94,7 @@ const About = () => {
           . Naš cilj je da svaki komad nameštaja bude ne samo estetski
           privlačan, već i funkcionalan i dugotrajan.
         </p>
-        <h3 className=" text-xl md:text-4xl text-center text-primary font-bold">
+        {/* <h3 className=" text-xl md:text-4xl text-center text-primary font-bold">
           Opremanje hotela, apartmana i poslovnih prostora
         </h3>
         <p className="first-letter:pl-6 ">
@@ -108,7 +108,7 @@ const About = () => {
           </span>
           , naš tim će dizajnirati i proizvesti sve u skladu sa zahtevima
           klijenata.
-        </p>
+        </p> */}
       </div>
     </div>
   );

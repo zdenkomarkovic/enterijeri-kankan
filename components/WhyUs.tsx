@@ -1,8 +1,10 @@
+"use client";
 import React from "react";
 import { IoLocationOutline } from "react-icons/io5";
 import { VscTools } from "react-icons/vsc";
 import { SlMap } from "react-icons/sl";
 import { FaAngellist } from "react-icons/fa6";
+import { motion } from "framer-motion";
 
 const WhyUs = () => {
   return (
@@ -12,7 +14,13 @@ const WhyUs = () => {
           Zašto Enterijeri Kankan
         </h2>
         <div className="grid  md:grid-cols-4 text-center gap-4 md:gap-8">
-          <div className="border-2 md:border-4 border-primary rounded-xl p-2 md:p-3 space-y-1 md:space-y-3  bg-muted">
+          <motion.div
+            whileInView={{ y: [100, 50, 0], opacity: [0, 0.5, 1] }}
+            transition={{ duration: 0.5 }}
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 0.95 }}
+            className="border-2 md:border-4 border-primary rounded-xl p-2 md:p-3 space-y-1 md:space-y-3  bg-muted"
+          >
             <VscTools className="w-16 h-16 md:w-24 md:h-24 text-primary mx-auto " />
             <p className="text-xl md:text-2xl text-primary font-bold">
               Iskustvo i profesionalizam
@@ -20,8 +28,14 @@ const WhyUs = () => {
             <p className=" text-lg md:text-xl">
               Višegodišnje iskustvo u opremanju enterijera.
             </p>
-          </div>
-          <div className="border-2 md:border-4 border-primary rounded-xl p-2 md:p-3 space-y-1 md:space-y-3  bg-muted">
+          </motion.div>
+          <motion.div
+            whileInView={{ y: [100, 50, 0], opacity: [0, 0.5, 1] }}
+            transition={{ duration: 0.5 }}
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 0.95 }}
+            className="border-2 md:border-4 border-primary rounded-xl p-2 md:p-3 space-y-1 md:space-y-3  bg-muted"
+          >
             <SlMap className="w-16 h-16 md:w-24 md:h-24 text-primary mx-auto" />
             <p className="text-xl md:text-2xl text-primary font-bold">
               Prilagođeni dizajn
@@ -29,8 +43,14 @@ const WhyUs = () => {
             <p className="text-lg md:text-xl">
               Svaki komad nameštaja izrađujemo po meri i želji klijenata.
             </p>
-          </div>
-          <div className="border-2 md:border-4 border-primary rounded-xl p-2 md:p-3 space-y-1 md:space-y-3  bg-muted">
+          </motion.div>
+          <motion.div
+            whileInView={{ y: [100, 50, 0], opacity: [0, 0.5, 1] }}
+            transition={{ duration: 0.5 }}
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 0.95 }}
+            className="border-2 md:border-4 border-primary rounded-xl p-2 md:p-3 space-y-1 md:space-y-3  bg-muted"
+          >
             <FaAngellist className="w-16 h-16 md:w-24 md:h-24 text-primary mx-auto" />
             <p className="text-xl md:text-2xl text-primary font-bold">
               Vrhunski materijali
@@ -38,8 +58,17 @@ const WhyUs = () => {
             <p className="text-lg md:text-xl">
               Koristimo samo najbolje materijale za dugotrajnost i kvalitet.
             </p>
-          </div>
-          <div className="border-2 md:border-4 border-primary rounded-xl p-2 md:p-3 space-y-1 md:space-y-3  bg-muted">
+          </motion.div>
+          <motion.div
+            whileInView={{
+              y: [100, 50, 0],
+              opacity: [0, 0.5, 1],
+            }}
+            transition={{ duration: 0.5 }}
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 0.95 }}
+            className="border-2 md:border-4 border-primary rounded-xl p-2 md:p-3 space-y-1 md:space-y-3  bg-muted"
+          >
             <IoLocationOutline className="w-16 h-16 md:w-24 md:h-24 text-primary mx-auto" />
             <p className="text-xl md:text-2xl text-primary font-bold">
               Srbija i inostranstvo
@@ -48,7 +77,7 @@ const WhyUs = () => {
               Beograd je naša baza, ali poslujemo i širom zemlje i u
               inostranstvu.
             </p>
-          </div>
+          </motion.div>
         </div>
       </div>
     </div>

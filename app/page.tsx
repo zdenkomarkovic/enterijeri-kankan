@@ -1,5 +1,6 @@
 import About from "@/components/About";
 import Hero from "@/components/Hero";
+import References from "@/components/References";
 import WhyUs from "@/components/WhyUs";
 
 export default function Home() {
@@ -8,6 +9,7 @@ export default function Home() {
       <Hero />
       <About />
       <WhyUs />
+      <References />
     </div>
   );
 }
