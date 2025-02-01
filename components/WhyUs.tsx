@@ -22,7 +22,7 @@ const WhyUs = () => {
               boxShadow: "0px 10px 20px rgba(252, 186, 3)",
             }}
             whileTap={{ scale: 0.95 }}
-            className=" rounded-xl p-2 md:p-3 space-y-1 md:space-y-3  bg-muted"
+            className=" rounded-xl p-2 md:p-3 space-y-1 md:space-y-3  bg-muted  shadow-primary shadow-lg md:shadow-2xl"
           >
             <VscTools className="w-16 h-16 md:w-24 md:h-24 text-primary mx-auto " />
             <p className="text-xl md:text-2xl text-primary font-bold">
@@ -58,7 +58,7 @@ const WhyUs = () => {
               boxShadow: "0px 10px 20px rgba(252, 186, 3)",
             }}
             whileTap={{ scale: 0.95 }}
-            className=" rounded-xl p-2 md:p-3 space-y-1 md:space-y-3  bg-muted"
+            className=" rounded-xl p-2 md:p-3 space-y-1 md:space-y-3  bg-muted shadow-primary shadow-xl md:shadow-2xl"
           >
             <FaAngellist className="w-16 h-16 md:w-24 md:h-24 text-primary mx-auto" />
             <p className="text-xl md:text-2xl text-primary font-bold">
