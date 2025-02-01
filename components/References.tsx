@@ -22,7 +22,7 @@ const References = () => {
                   boxShadow: "0px 10px 20px ",
                 }}
                 whileTap={{ scale: 0.95 }}
-                className="flex flex-col justify-between bg-black rounded-2xl p-5 shadow-primary shadow-2xl"
+                className="flex flex-col justify-between bg-black rounded-2xl p-5 shadow-primary shadow-lg md:shadow-2xl"
               >
                 <Image
                   src={item.img}
