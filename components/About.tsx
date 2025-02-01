@@ -10,26 +10,20 @@ const About = () => {
         </h2>
 
         <p className="first-letter:pl-8 ">
-          <span className="font-bold text-primary">Enterijeri Kankan</span> je
-          firma sa sedištem u{" "}
-          <span className="font-bold text-primary">Beogradu</span>,
+          <span className="font-bold">Enterijeri Kankan</span> je firma sa
+          sedištem u <span className="font-bold">Beogradu</span>,
           specijalizovana za proizvodnju i{" "}
           <span className="font-bold text-primary">opremanje enterijera </span>
           ugostiteljskih objekata, hotela i apartmana. Naš tim stručnih majstora
           i dizajnera izrađuje visokokvalitetan nameštaj{" "}
+          <span className="font-bold">po meri i želji klijenata</span>.
+          Proizvodimo{" "}
           <span className="font-bold text-primary">
-            po meri i želji klijenata
-          </span>
-          . Proizvodimo{" "}
-          <span className="font-bold text-primary">
-            separe, stolice, stolove, zidne obloge
+            separe, stolice, stolove
           </span>{" "}
           uz korišćenje najboljih materijala i savremenih tehnika proizvodnje.
           Naši proizvodi i usluge dostupni su u{" "}
-          <span className="font-bold text-primary">
-            celoj Srbiji i inostranstvu
-          </span>
-          .
+          <span className="font-bold">celoj Srbiji i inostranstvu</span>.
         </p>
 
         <h3 className=" text-xl md:text-4xl text-center text-primary font-bold">
@@ -58,25 +52,6 @@ const About = () => {
               </span>{" "}
               – za udobnost i ekskluzivan izgled.
             </li>
-            {/* <li>
-              <span className="font-bold text-primary">
-                Šankove i radne površine
-              </span>{" "}
-              – izrađene od drveta, univera, medijapana i drugih kvalitetnih
-              materijala.
-            </li>
-            <li>
-              <span className="font-bold text-primary">
-                Zidne obloge i dekoracije
-              </span>{" "}
-              – drvene, tapacirane, 3D paneli i drugo.
-            </li>
-            <li>
-              <span className="font-bold text-primary">
-                Kuhinje i bar pultovi
-              </span>{" "}
-              – prilagođeni potrebama ugostiteljskih objekata.
-            </li> */}
           </ul>
         </div>
         <h3 className=" text-xl md:text-4xl text-center text-primary font-bold">
@@ -88,27 +63,10 @@ const About = () => {
             proveren i visokokvalitetan materijal
           </span>{" "}
           – prirodno i obrađeno drvo, univer, MDF, metal, kao i veliki izbor{" "}
-          <span className="font-bold text-primary">
-            štofova eko-kože i kože
-          </span>
-          . Naš cilj je da svaki komad nameštaja bude ne samo estetski
-          privlačan, već i funkcionalan i dugotrajan.
+          <span className="font-bold">štofova eko-kože i kože</span>. Naš cilj
+          je da svaki komad nameštaja bude ne samo estetski privlačan, već i
+          funkcionalan i dugotrajan.
         </p>
-        {/* <h3 className=" text-xl md:text-4xl text-center text-primary font-bold">
-          Opremanje hotela, apartmana i poslovnih prostora
-        </h3>
-        <p className="first-letter:pl-6 ">
-          Pored ugostiteljskih objekata, specijalizovani smo i za{" "}
-          <span className="font-bold text-primary">
-            kompletno opremanje hotela, apartmana i poslovnih prostora
-          </span>
-          . Bilo da su vam potrebni{" "}
-          <span className="font-bold text-primary">
-            kreveti, ormani, noćni stočići, radni stolovi ili dekorativni paneli
-          </span>
-          , naš tim će dizajnirati i proizvesti sve u skladu sa zahtevima
-          klijenata.
-        </p> */}
       </div>
     </div>
   );
