@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 const References = () => {
   return (
     <div className="bg-muted-foreground text-primary">
-      <div className="container px-2 md:px-4 mx-auto text-center text-xl py-20  space-y-16">
+      <div className="container px-6 mx-auto text-center text-2xl md:text-xl py-20  space-y-16">
         <h2 className="text-5xl md:text-8xl text-muted">Reference</h2>
 
         <h3 className="text-muted text-3xl md:text-6xl text-left">Restorani</h3>
@@ -16,15 +16,13 @@ const References = () => {
             return (
               <motion.div
                 key={i}
-                initial={{ y: -20 }}
-                animate={{ y: 0 }}
                 transition={{ delay: 0.2 }}
                 whileHover={{
                   scale: 1.05,
                   boxShadow: "0px 10px 20px ",
                 }}
                 whileTap={{ scale: 0.95 }}
-                className="flex flex-col justify-between bg-black rounded-2xl p-5"
+                className="flex flex-col justify-between bg-black rounded-2xl p-5 shadow-primary shadow-2xl"
               >
                 <Image
                   src={item.img}
@@ -46,7 +44,7 @@ const References = () => {
                 key={i}
                 whileHover={{ scale: 1.05, boxShadow: "0px 10px 20px " }}
                 whileTap={{ scale: 0.95 }}
-                className="flex flex-col justify-between bg-black rounded-2xl p-5"
+                className="flex flex-col justify-between bg-black rounded-2xl p-5 shadow-primary shadow-2xl"
               >
                 <Image
                   src={item.img}
@@ -70,7 +68,7 @@ const References = () => {
                 key={i}
                 whileHover={{ scale: 1.05, boxShadow: "0px 10px 20px " }}
                 whileTap={{ scale: 0.95 }}
-                className="flex flex-col justify-between bg-black rounded-2xl p-5"
+                className="flex flex-col justify-between bg-black rounded-2xl p-5 shadow-primary shadow-2xl"
               >
                 <Image
                   src={item.img}
@@ -96,7 +94,7 @@ const References = () => {
                 key={i}
                 whileHover={{ scale: 1.05, boxShadow: "0px 10px 20px " }}
                 whileTap={{ scale: 0.95 }}
-                className="flex flex-col justify-between bg-black rounded-2xl p-5"
+                className="flex flex-col justify-between bg-black rounded-2xl p-5 shadow-primary shadow-2xl"
               >
                 <Image
                   src={item.img}
