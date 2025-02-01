@@ -13,7 +13,7 @@ const WhyUs = () => {
         <h2 className="text-2xl md:text-5xl text-center text-primary font-bold">
           Zašto Enterijeri Kankan
         </h2>
-        <div className="grid  md:grid-cols-4 text-center gap-4 md:gap-8">
+        <div className="grid  md:grid-cols-4 text-center gap-6 md:gap-8">
           <motion.div
             whileInView={{ y: [100, 50, 0], opacity: [0, 0.5, 1] }}
             transition={{ duration: 0.5 }}

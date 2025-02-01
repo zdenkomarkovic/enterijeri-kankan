@@ -16,7 +16,8 @@ const References = () => {
             return (
               <motion.div
                 key={i}
-                transition={{ delay: 0.2 }}
+                whileInView={{ y: [100, 50, 0], opacity: [0, 0.5, 1] }}
+                transition={{ duration: 0.5 }}
                 whileHover={{
                   scale: 1.05,
                   boxShadow: "0px 10px 20px ",
@@ -42,6 +43,8 @@ const References = () => {
             return (
               <motion.div
                 key={i}
+                whileInView={{ y: [100, 50, 0], opacity: [0, 0.5, 1] }}
+                transition={{ duration: 0.5 }}
                 whileHover={{ scale: 1.05, boxShadow: "0px 10px 20px " }}
                 whileTap={{ scale: 0.95 }}
                 className="flex flex-col justify-between bg-black rounded-2xl p-5 shadow-primary shadow-lg"
@@ -66,6 +69,8 @@ const References = () => {
             return (
               <motion.div
                 key={i}
+                whileInView={{ y: [100, 50, 0], opacity: [0, 0.5, 1] }}
+                transition={{ duration: 0.5 }}
                 whileHover={{ scale: 1.05, boxShadow: "0px 10px 20px " }}
                 whileTap={{ scale: 0.95 }}
                 className="flex flex-col justify-between bg-black rounded-2xl p-5 shadow-primary shadow-lg"
@@ -92,6 +97,8 @@ const References = () => {
             return (
               <motion.div
                 key={i}
+                whileInView={{ y: [100, 50, 0], opacity: [0, 0.5, 1] }}
+                transition={{ duration: 0.5 }}
                 whileHover={{ scale: 1.05, boxShadow: "0px 10px 20px " }}
                 whileTap={{ scale: 0.95 }}
                 className="flex flex-col justify-between bg-black rounded-2xl p-5 shadow-primary shadow-lg"
