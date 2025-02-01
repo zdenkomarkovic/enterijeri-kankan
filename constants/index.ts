@@ -109,10 +109,6 @@ export const caffeBar = [
     img: "/Swiss-Delight-Linear-White-Logo.png",
   },
   {
-    title: "Pub",
-    img: "/Screenshot_20250131_112918_Instagram.jpg",
-  },
-  {
     title: "Pauza",
     img: "/Screenshot_20250201_014036_Instagram.jpg",
   },

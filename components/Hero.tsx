@@ -40,21 +40,21 @@ const Hero = () => {
           <CarouselItem>
             <Image
               src={Hero1}
-              alt="Moderna dnevna soba"
+              alt="separe"
               className="w-full h-[100dvh] object-cover"
             />
           </CarouselItem>
           <CarouselItem>
             <Image
               src={Hero2}
-              alt="Elegantna dnevna soba"
+              alt="separe"
               className="w-full h-[100dvh] object-cover"
             />
           </CarouselItem>
           <CarouselItem>
             <Image
               src={Hero3}
-              alt="Luksuzni plakar"
+              alt="separe"
               className="w-full h-[100dvh] object-cover"
             />
           </CarouselItem>
@@ -67,9 +67,6 @@ const Hero = () => {
           </span>{" "}
           Separei i nameštaj po meri za ugostiteljske objekte
         </h1>
-        {/* <h2 className="  max-w-[800px] px-4">
-          Nameštaj po meri za ugostiteljske objekte
-        </h2> */}
         <div className="flex flex-col gap-4 md:flex-row">
           <Link href="/proizvodi">
             <motion.button

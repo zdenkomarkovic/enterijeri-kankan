@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 
 const References = () => {
   return (
-    <div className="bg-muted-foreground text-muted">
+    <div className="bg-muted-foreground text-primary">
       <div className="container px-2 md:px-4 mx-auto text-center text-xl py-20  space-y-16">
         <h2 className="text-5xl md:text-8xl text-muted">Reference</h2>
 
@@ -16,16 +16,22 @@ const References = () => {
             return (
               <motion.div
                 key={i}
-                whileHover={{ scale: 1.05 }}
+                initial={{ y: -20 }}
+                animate={{ y: 0 }}
+                transition={{ delay: 0.2 }}
+                whileHover={{
+                  scale: 1.05,
+                  boxShadow: "0px 10px 20px ",
+                }}
                 whileTap={{ scale: 0.95 }}
-                className="flex flex-col justify-between bg-primary rounded-2xl p-5"
+                className="flex flex-col justify-between bg-black rounded-2xl p-5"
               >
                 <Image
                   src={item.img}
                   alt={"logo"}
                   width={150}
                   height={150}
-                  className="rounded-full mx-auto my-auto "
+                  className="rounded-full mx-auto my-auto"
                 />
                 <p className="mt-8">{item.title}</p>
               </motion.div>
@@ -38,9 +44,9 @@ const References = () => {
             return (
               <motion.div
                 key={i}
-                whileHover={{ scale: 1.05 }}
+                whileHover={{ scale: 1.05, boxShadow: "0px 10px 20px " }}
                 whileTap={{ scale: 0.95 }}
-                className="flex flex-col justify-between bg-primary rounded-2xl p-5"
+                className="flex flex-col justify-between bg-black rounded-2xl p-5"
               >
                 <Image
                   src={item.img}
@@ -62,16 +68,18 @@ const References = () => {
             return (
               <motion.div
                 key={i}
-                whileHover={{ scale: 1.05 }}
+                whileHover={{ scale: 1.05, boxShadow: "0px 10px 20px " }}
                 whileTap={{ scale: 0.95 }}
-                className="flex flex-col justify-between bg-primary rounded-2xl p-5"
+                className="flex flex-col justify-between bg-black rounded-2xl p-5"
               >
                 <Image
                   src={item.img}
                   alt={"logo"}
                   width={150}
                   height={150}
-                  className="rounded-full mx-auto my-auto "
+                  className={`rounded-full mx-auto my-auto ${
+                    item.title === "Toro" && "bg-white"
+                  }`}
                 />
                 <p className="mt-8">{item.title}</p>
               </motion.div>
@@ -86,9 +94,9 @@ const References = () => {
             return (
               <motion.div
                 key={i}
-                whileHover={{ scale: 1.05 }}
+                whileHover={{ scale: 1.05, boxShadow: "0px 10px 20px " }}
                 whileTap={{ scale: 0.95 }}
-                className="flex flex-col justify-between bg-primary rounded-2xl p-5"
+                className="flex flex-col justify-between bg-black rounded-2xl p-5"
               >
                 <Image
                   src={item.img}

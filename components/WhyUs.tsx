@@ -17,9 +17,12 @@ const WhyUs = () => {
           <motion.div
             whileInView={{ y: [100, 50, 0], opacity: [0, 0.5, 1] }}
             transition={{ duration: 0.5 }}
-            whileHover={{ scale: 1.05 }}
+            whileHover={{
+              scale: 1.05,
+              boxShadow: "0px 10px 20px rgba(252, 186, 3)",
+            }}
             whileTap={{ scale: 0.95 }}
-            className="border-2 md:border-4 border-primary rounded-xl p-2 md:p-3 space-y-1 md:space-y-3  bg-muted"
+            className=" rounded-xl p-2 md:p-3 space-y-1 md:space-y-3  bg-muted"
           >
             <VscTools className="w-16 h-16 md:w-24 md:h-24 text-primary mx-auto " />
             <p className="text-xl md:text-2xl text-primary font-bold">
@@ -32,9 +35,12 @@ const WhyUs = () => {
           <motion.div
             whileInView={{ y: [100, 50, 0], opacity: [0, 0.5, 1] }}
             transition={{ duration: 0.5 }}
-            whileHover={{ scale: 1.05 }}
+            whileHover={{
+              scale: 1.05,
+              boxShadow: "0px 10px 20px rgba(252, 186, 3)",
+            }}
             whileTap={{ scale: 0.95 }}
-            className="border-2 md:border-4 border-primary rounded-xl p-2 md:p-3 space-y-1 md:space-y-3  bg-muted"
+            className=" rounded-xl p-2 md:p-3 space-y-1 md:space-y-3  bg-muted"
           >
             <SlMap className="w-16 h-16 md:w-24 md:h-24 text-primary mx-auto" />
             <p className="text-xl md:text-2xl text-primary font-bold">
@@ -47,9 +53,12 @@ const WhyUs = () => {
           <motion.div
             whileInView={{ y: [100, 50, 0], opacity: [0, 0.5, 1] }}
             transition={{ duration: 0.5 }}
-            whileHover={{ scale: 1.05 }}
+            whileHover={{
+              scale: 1.05,
+              boxShadow: "0px 10px 20px rgba(252, 186, 3)",
+            }}
             whileTap={{ scale: 0.95 }}
-            className="border-2 md:border-4 border-primary rounded-xl p-2 md:p-3 space-y-1 md:space-y-3  bg-muted"
+            className=" rounded-xl p-2 md:p-3 space-y-1 md:space-y-3  bg-muted"
           >
             <FaAngellist className="w-16 h-16 md:w-24 md:h-24 text-primary mx-auto" />
             <p className="text-xl md:text-2xl text-primary font-bold">
@@ -65,9 +74,12 @@ const WhyUs = () => {
               opacity: [0, 0.5, 1],
             }}
             transition={{ duration: 0.5 }}
-            whileHover={{ scale: 1.05 }}
+            whileHover={{
+              scale: 1.05,
+              boxShadow: "0px 10px 20px rgba(252, 186, 3)",
+            }}
             whileTap={{ scale: 0.95 }}
-            className="border-2 md:border-4 border-primary rounded-xl p-2 md:p-3 space-y-1 md:space-y-3  bg-muted"
+            className=" rounded-xl p-2 md:p-5 space-y-1 md:space-y-3  bg-muted"
           >
             <IoLocationOutline className="w-16 h-16 md:w-24 md:h-24 text-primary mx-auto" />
             <p className="text-xl md:text-2xl text-primary font-bold">
