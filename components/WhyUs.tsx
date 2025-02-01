@@ -9,7 +9,7 @@ import { motion } from "framer-motion";
 const WhyUs = () => {
   return (
     <div className="bg-muted-foreground text-muted-foreground">
-      <div className="container px-2 md:px-4 mx-auto py-10 md:py-20 border-t-2 space-y-10 md:space-y-20">
+      <div className="container px-5 mx-auto py-10 md:py-20 border-t-2 space-y-10 md:space-y-20">
         <h2 className="text-2xl md:text-5xl text-center text-primary font-bold">
           Zašto Enterijeri Kankan
         </h2>
@@ -22,7 +22,7 @@ const WhyUs = () => {
               boxShadow: "0px 10px 20px rgba(252, 186, 3)",
             }}
             whileTap={{ scale: 0.95 }}
-            className=" rounded-xl p-2 md:p-3 space-y-1 md:space-y-3  bg-muted  shadow-primary shadow-lg md:shadow-2xl"
+            className=" rounded-xl p-2 md:p-3 space-y-1 md:space-y-3  bg-muted  shadow-primary shadow-lg"
           >
             <VscTools className="w-16 h-16 md:w-24 md:h-24 text-primary mx-auto " />
             <p className="text-xl md:text-2xl text-primary font-bold">
@@ -40,7 +40,7 @@ const WhyUs = () => {
               boxShadow: "0px 10px 20px rgba(252, 186, 3)",
             }}
             whileTap={{ scale: 0.95 }}
-            className=" rounded-xl p-2 md:p-3 space-y-1 md:space-y-3  bg-muted"
+            className=" rounded-xl p-2 md:p-3 space-y-1 md:space-y-3  bg-muted shadow-primary shadow-lg"
           >
             <SlMap className="w-16 h-16 md:w-24 md:h-24 text-primary mx-auto" />
             <p className="text-xl md:text-2xl text-primary font-bold">
@@ -58,7 +58,7 @@ const WhyUs = () => {
               boxShadow: "0px 10px 20px rgba(252, 186, 3)",
             }}
             whileTap={{ scale: 0.95 }}
-            className=" rounded-xl p-2 md:p-3 space-y-1 md:space-y-3  bg-muted shadow-primary shadow-xl md:shadow-2xl"
+            className=" rounded-xl p-2 md:p-3 space-y-1 md:space-y-3  bg-muted shadow-primary shadow-lg"
           >
             <FaAngellist className="w-16 h-16 md:w-24 md:h-24 text-primary mx-auto" />
             <p className="text-xl md:text-2xl text-primary font-bold">
@@ -79,7 +79,7 @@ const WhyUs = () => {
               boxShadow: "0px 10px 20px rgba(252, 186, 3)",
             }}
             whileTap={{ scale: 0.95 }}
-            className=" rounded-xl p-2 md:p-5 space-y-1 md:space-y-3  bg-muted"
+            className=" rounded-xl p-2 md:p-5 space-y-1 md:space-y-3  bg-muted shadow-primary shadow-lg"
           >
             <IoLocationOutline className="w-16 h-16 md:w-24 md:h-24 text-primary mx-auto" />
             <p className="text-xl md:text-2xl text-primary font-bold">
