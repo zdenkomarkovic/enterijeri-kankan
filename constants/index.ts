@@ -106,7 +106,7 @@ export interface CaffeBar {
 export const caffeBar = [
   {
     title: "Swiss De Light",
-    img: "/Screenshot_20250131_112918_Instagram.jpg",
+    img: "/Swiss-Delight-Linear-White-Logo.png",
   },
   {
     title: "Pub",
@@ -114,39 +114,39 @@ export const caffeBar = [
   },
   {
     title: "Pauza",
-    img: "/Screenshot_20250131_112918_Instagram.jpg",
+    img: "/Screenshot_20250201_014036_Instagram.jpg",
   },
   {
     title: "Troy",
-    img: "/Screenshot_20250131_112918_Instagram.jpg",
+    img: "/306000680_483699337098345_3057657617767782222_n.jpg",
   },
   {
     title: "Toro",
-    img: "/Screenshot_20250131_112918_Instagram.jpg",
+    img: "/Toro-Logo_Cocoa_Strapline.png",
   },
   {
     title: "Shisha bar Shisharka, Zlatibor",
-    img: "/Screenshot_20250131_112918_Instagram.jpg",
+    img: "/424988200_762183779163092_7151935030057208089_n.jpg",
   },
   {
     title: "Shisha bar Knez Mihajlova",
-    img: "/Screenshot_20250131_112918_Instagram.jpg",
+    img: "/277792341_386705210127294_6218620048571516536_n.jpg",
   },
   {
     title: "Pizzeria PIGO",
-    img: "/Screenshot_20250131_112918_Instagram.jpg",
+    img: "/Screenshot_20250201_015425_Instagram.jpg",
   },
   {
     title: "Pivnica Kompas",
-    img: "/Screenshot_20250131_112918_Instagram.jpg",
+    img: "/400x400-logo-6A2.gif",
   },
   {
     title: "Beer Hub",
-    img: "/Screenshot_20250131_112918_Instagram.jpg",
+    img: "/326401097_1400914950442555_8125295370593203813_n.jpg",
   },
   {
     title: "IKL Wine bar",
-    img: "/Screenshot_20250131_112918_Instagram.jpg",
+    img: "/Screenshot_20250201_015921_Instagram.jpg",
   },
 ];
 
@@ -162,14 +162,14 @@ export const igraonice = [
   },
   {
     title: "Fenix",
-    img: "/Screenshot_20250131_112918_Instagram.jpg",
+    img: "/Screenshot_20250131_130956_Instagram.jpg",
   },
   {
     title: "Poco loco",
-    img: "/Screenshot_20250131_112918_Instagram.jpg",
+    img: "/l_35b60d12d166486f68f53c6258f8777d_1736_rodjendanko_v.jpg",
   },
   {
     title: "Make a wish",
-    img: "/Screenshot_20250131_112918_Instagram.jpg",
+    img: "/Screenshot_20250131_131212_Instagram.jpg",
   },
 ];
