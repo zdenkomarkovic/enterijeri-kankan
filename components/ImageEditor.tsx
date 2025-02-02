@@ -4,7 +4,6 @@ import React, { useState } from "react";
 import { motion } from "framer-motion";
 import Image from "@/node_modules/next/image";
 import { ChevronLeft, ChevronRight, CircleX } from "lucide-react";
-import { separei } from "@/constants/index";
 
 interface ImageEditorProps {
   images: string[];
