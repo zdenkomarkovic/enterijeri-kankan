@@ -170,447 +170,151 @@ export const igraonice = [
   },
 ];
 
-export interface Separei {
-  img: string;
-}
-
-export const separei = [
-  {
-    img: "/separei/separe (3).jpg",
-  },
-  {
-    img: "/separei/separe (4).jpg",
-  },
-  {
-    img: "/separei/separe (5).jpg",
-  },
-  {
-    img: "/separei/separe (2).jpg",
-  },
-  {
-    img: "/separei/separe (6).jpg",
-  },
-  {
-    img: "/separei/separe (7).jpg",
-  },
-  {
-    img: "/separei/separe (8).jpg",
-  },
-  {
-    img: "/separei/separe (9).jpg",
-  },
-  {
-    img: "/separei/separe (10).jpg",
-  },
-  {
-    img: "/separei/separe.jpg",
-  },
-  {
-    img: "/separei/separe (11).jpg",
-  },
-  {
-    img: "/separei/separe (12).jpg",
-  },
-  {
-    img: "/separei/separe (13).jpg",
-  },
-  {
-    img: "/separei/separe (14).jpg",
-  },
-  {
-    img: "/separei/separe (15).jpg",
-  },
-  {
-    img: "/separei/separe (16).jpg",
-  },
-  {
-    img: "/separei/separe (17).jpg",
-  },
-  {
-    img: "/separei/separe (18).jpg",
-  },
-  {
-    img: "/separei/separe (19).jpg",
-  },
-  {
-    img: "/separei/separe (20).jpg",
-  },
-  {
-    img: "/separei/separe (21).jpg",
-  },
-  {
-    img: "/separei/separe (22).jpg",
-  },
-  {
-    img: "/separei/separe (23).jpg",
-  },
-  {
-    img: "/separei/separe (24).jpg",
-  },
-  {
-    img: "/separei/separe (25).jpg",
-  },
-  {
-    img: "/separei/separe (26).jpg",
-  },
-  {
-    img: "/separei/separe (27).jpg",
-  },
-  {
-    img: "/separei/separe (28).jpg",
-  },
-  {
-    img: "/separei/separe (29).jpg",
-  },
-  {
-    img: "/separei/separe (30).jpg",
-  },
-  {
-    img: "/separei/separe (31).jpg",
-  },
-  {
-    img: "/separei/separe (32).jpg",
-  },
-  {
-    img: "/separei/separe (33).jpg",
-  },
-  {
-    img: "/separei/separe (34).jpg",
-  },
-  {
-    img: "/separei/separe (35).jpg",
-  },
-  {
-    img: "/separei/separe (36).jpg",
-  },
-  {
-    img: "/separei/separe (37).jpg",
-  },
-  {
-    img: "/separei/separe (38).jpg",
-  },
-  {
-    img: "/separei/separe (39).jpg",
-  },
-  {
-    img: "/separei/separe (40).jpg",
-  },
-  {
-    img: "/separei/separe (41).jpg",
-  },
-  {
-    img: "/separei/separe (42).jpg",
-  },
-  {
-    img: "/separei/separe (43).jpg",
-  },
-  {
-    img: "/separei/separe (44).jpg",
-  },
-  {
-    img: "/separei/separe (45).jpg",
-  },
-  {
-    img: "/separei/separe (46).jpg",
-  },
-  {
-    img: "/separei/separe (47).jpg",
-  },
-  {
-    img: "/separei/separe (48).jpg",
-  },
-  {
-    img: "/separei/separe (49).jpg",
-  },
-  {
-    img: "/separei/separe (50).jpg",
-  },
-  {
-    img: "/separei/separe (51).jpg",
-  },
-  {
-    img: "/separei/separe (52).jpg",
-  },
-  {
-    img: "/separei/separe (53).jpg",
-  },
-  {
-    img: "/separei/separe (54).jpg",
-  },
-  {
-    img: "/separei/separe (55).jpg",
-  },
-  {
-    img: "/separei/separe (56).jpg",
-  },
-  {
-    img: "/separei/separe (57).jpg",
-  },
-  {
-    img: "/separei/separe (58).jpg",
-  },
-  {
-    img: "/separei/separe (59).jpg",
-  },
-  {
-    img: "/separei/separe (60).jpg",
-  },
-  {
-    img: "/separei/separe (61).jpg",
-  },
-  {
-    img: "/separei/separe (62).jpg",
-  },
-  {
-    img: "/separei/separe (63).jpg",
-  },
-  {
-    img: "/separei/separe (64).jpg",
-  },
-  {
-    img: "/separei/separe (65).jpg",
-  },
-  {
-    img: "/separei/separe (66).jpg",
-  },
-  {
-    img: "/separei/separe (67).jpg",
-  },
-  {
-    img: "/separei/separe (68).jpg",
-  },
-  {
-    img: "/separei/separe (69).jpg",
-  },
-  {
-    img: "/separei/separe (70).jpg",
-  },
-  {
-    img: "/separei/separe (71).jpg",
-  },
-  {
-    img: "/separei/separe (72).jpg",
-  },
-  {
-    img: "/separei/separe (73).jpg",
-  },
-  {
-    img: "/separei/separe (74).jpg",
-  },
-  {
-    img: "/separei/separe (75).jpg",
-  },
-  {
-    img: "/separei/separe (76).jpg",
-  },
-  {
-    img: "/separei/separe (77).jpg",
-  },
-  {
-    img: "/separei/separe (78).jpg",
-  },
-  {
-    img: "/separei/separe (79).jpg",
-  },
-  {
-    img: "/separei/separe (80).jpg",
-  },
-  {
-    img: "/separei/separe (81).jpg",
-  },
-  {
-    img: "/separei/separe (82).jpg",
-  },
-  {
-    img: "/separei/separe (83).jpg",
-  },
-  {
-    img: "/separei/separe (84).jpg",
-  },
-  {
-    img: "/separei/separe (85).jpg",
-  },
-  {
-    img: "/separei/separe (86).jpg",
-  },
-  {
-    img: "/separei/separe (87).jpg",
-  },
-  {
-    img: "/separei/separe (88).jpg",
-  },
-  {
-    img: "/separei/separe (89).jpg",
-  },
-  {
-    img: "/separei/separe (90).jpg",
-  },
-  {
-    img: "/separei/separe (91).jpg",
-  },
-  {
-    img: "/separei/separe (92).jpg",
-  },
-  {
-    img: "/separei/separe (93).jpg",
-  },
-  {
-    img: "/separei/separe (94).jpg",
-  },
-  {
-    img: "/separei/separe (95).jpg",
-  },
-  {
-    img: "/separei/separe (96).jpg",
-  },
-  {
-    img: "/separei/separe (97).jpg",
-  },
-  {
-    img: "/separei/separe (98).jpg",
-  },
-  {
-    img: "/separei/separe (99).jpg",
-  },
-  {
-    img: "/separei/separe (100).jpg",
-  },
-  {
-    img: "/separei/separe (101).jpg",
-  },
-  {
-    img: "/separei/separe (102).jpg",
-  },
-  {
-    img: "/separei/separe (103).jpg",
-  },
-  {
-    img: "/separei/separe (104).jpg",
-  },
-  {
-    img: "/separei/separe (105).jpg",
-  },
-  {
-    img: "/separei/separe (106).jpg",
-  },
-  {
-    img: "/separei/separe (107).jpg",
-  },
-  {
-    img: "/separei/separe (108).jpg",
-  },
-  {
-    img: "/separei/separe (109).jpg",
-  },
-  {
-    img: "/separei/separe (110).jpg",
-  },
-  {
-    img: "/separei/separe (111).jpg",
-  },
-  {
-    img: "/separei/separe (112).jpg",
-  },
-  {
-    img: "/separei/separe (113).jpg",
-  },
-  {
-    img: "/separei/separe (114).jpg",
-  },
-  {
-    img: "/separei/separe (115).jpg",
-  },
-  {
-    img: "/separei/separe (116).jpg",
-  },
-  {
-    img: "/separei/separe (117).jpg",
-  },
-  {
-    img: "/separei/separe (118).jpg",
-  },
-  {
-    img: "/separei/separe (119).jpg",
-  },
-  {
-    img: "/separei/separe (120).jpg",
-  },
-  {
-    img: "/separei/separe (121).jpg",
-  },
-  {
-    img: "/separei/separe (122).jpg",
-  },
-  {
-    img: "/separei/separe (123).jpg",
-  },
-  {
-    img: "/separei/separe (124).jpg",
-  },
-  {
-    img: "/separei/separe (125).jpg",
-  },
-  {
-    img: "/separei/separe (126).jpg",
-  },
-  {
-    img: "/separei/separe (127).jpg",
-  },
-  {
-    img: "/separei/separe (128).jpg",
-  },
-  {
-    img: "/separei/separe (129).jpg",
-  },
-  {
-    img: "/separei/separe (130).jpg",
-  },
-  {
-    img: "/separei/separe (131).jpg",
-  },
-  {
-    img: "/separei/separe (132).jpg",
-  },
-  {
-    img: "/separei/separe (133).jpg",
-  },
-  {
-    img: "/separei/separe (134).jpg",
-  },
-  {
-    img: "/separei/separe (135).jpg",
-  },
-  {
-    img: "/separei/separe (136).jpg",
-  },
-  {
-    img: "/separei/separe (137).jpg",
-  },
-  {
-    img: "/separei/separe (138).jpg",
-  },
-  {
-    img: "/separei/separe (139).jpg",
-  },
-  {
-    img: "/separei/separe (140).jpg",
-  },
-  {
-    img: "/separei/separe (141).jpg",
-  },
-  {
-    img: "/separei/separe (142).jpg",
-  },
-  {
-    img: "/separei/separe (143).jpg",
-  },
-  {
-    img: "/separei/separe (144).jpg",
-  },
-  {
-    img: "/separei/separe (145).jpg",
-  },
-  {
-    img: "/separei/separe (146).jpg",
-  },
+export const separei: string[] = [
+  "/separei/separe (3).jpg",
+  "/separei/separe (4).jpg",
+  "/separei/separe (5).jpg",
+  "/separei/separe (2).jpg",
+  "/separei/separe (6).jpg",
+  "/separei/separe (7).jpg",
+  "/separei/separe (8).jpg",
+  "/separei/separe (9).jpg",
+  "/separei/separe (10).jpg",
+  "/separei/separe.jpg",
+  "/separei/separe (11).jpg",
+  "/separei/separe (12).jpg",
+  "/separei/separe (13).jpg",
+  "/separei/separe (14).jpg",
+  "/separei/separe (15).jpg",
+  "/separei/separe (16).jpg",
+  "/separei/separe (17).jpg",
+  "/separei/separe (18).jpg",
+  "/separei/separe (19).jpg",
+  "/separei/separe (20).jpg",
+  "/separei/separe (21).jpg",
+  "/separei/separe (22).jpg",
+  "/separei/separe (23).jpg",
+  "/separei/separe (24).jpg",
+  "/separei/separe (25).jpg",
+  "/separei/separe (26).jpg",
+  "/separei/separe (27).jpg",
+  "/separei/separe (28).jpg",
+  "/separei/separe (29).jpg",
+  "/separei/separe (30).jpg",
+  "/separei/separe (31).jpg",
+  "/separei/separe (32).jpg",
+  "/separei/separe (33).jpg",
+  "/separei/separe (34).jpg",
+  "/separei/separe (35).jpg",
+  "/separei/separe (36).jpg",
+  "/separei/separe (37).jpg",
+  "/separei/separe (38).jpg",
+  "/separei/separe (39).jpg",
+  "/separei/separe (40).jpg",
+  "/separei/separe (41).jpg",
+  "/separei/separe (42).jpg",
+  "/separei/separe (43).jpg",
+  "/separei/separe (44).jpg",
+  "/separei/separe (45).jpg",
+  "/separei/separe (46).jpg",
+  "/separei/separe (47).jpg",
+  "/separei/separe (48).jpg",
+  "/separei/separe (49).jpg",
+  "/separei/separe (50).jpg",
+  "/separei/separe (51).jpg",
+  "/separei/separe (52).jpg",
+  "/separei/separe (53).jpg",
+  "/separei/separe (54).jpg",
+  "/separei/separe (55).jpg",
+  "/separei/separe (56).jpg",
+  "/separei/separe (57).jpg",
+  "/separei/separe (58).jpg",
+  "/separei/separe (59).jpg",
+  "/separei/separe (60).jpg",
+  "/separei/separe (61).jpg",
+  "/separei/separe (62).jpg",
+  "/separei/separe (63).jpg",
+  "/separei/separe (64).jpg",
+  "/separei/separe (65).jpg",
+  "/separei/separe (66).jpg",
+  "/separei/separe (67).jpg",
+  "/separei/separe (68).jpg",
+  "/separei/separe (69).jpg",
+  "/separei/separe (70).jpg",
+  "/separei/separe (71).jpg",
+  "/separei/separe (72).jpg",
+  "/separei/separe (73).jpg",
+  "/separei/separe (74).jpg",
+  "/separei/separe (75).jpg",
+  "/separei/separe (76).jpg",
+  "/separei/separe (77).jpg",
+  "/separei/separe (78).jpg",
+  "/separei/separe (79).jpg",
+  "/separei/separe (80).jpg",
+  "/separei/separe (81).jpg",
+  "/separei/separe (82).jpg",
+  "/separei/separe (83).jpg",
+  "/separei/separe (84).jpg",
+  "/separei/separe (85).jpg",
+  "/separei/separe (86).jpg",
+  "/separei/separe (87).jpg",
+  "/separei/separe (88).jpg",
+  "/separei/separe (89).jpg",
+  "/separei/separe (90).jpg",
+  "/separei/separe (91).jpg",
+  "/separei/separe (92).jpg",
+  "/separei/separe (93).jpg",
+  "/separei/separe (94).jpg",
+  "/separei/separe (95).jpg",
+  "/separei/separe (96).jpg",
+  "/separei/separe (97).jpg",
+  "/separei/separe (98).jpg",
+  "/separei/separe (99).jpg",
+  "/separei/separe (100).jpg",
+  "/separei/separe (101).jpg",
+  "/separei/separe (102).jpg",
+  "/separei/separe (103).jpg",
+  "/separei/separe (104).jpg",
+  "/separei/separe (105).jpg",
+  "/separei/separe (106).jpg",
+  "/separei/separe (107).jpg",
+  "/separei/separe (108).jpg",
+  "/separei/separe (109).jpg",
+  "/separei/separe (110).jpg",
+  "/separei/separe (111).jpg",
+  "/separei/separe (112).jpg",
+  "/separei/separe (113).jpg",
+  "/separei/separe (114).jpg",
+  "/separei/separe (115).jpg",
+  "/separei/separe (116).jpg",
+  "/separei/separe (117).jpg",
+  "/separei/separe (118).jpg",
+  "/separei/separe (119).jpg",
+  "/separei/separe (120).jpg",
+  "/separei/separe (121).jpg",
+  "/separei/separe (122).jpg",
+  "/separei/separe (123).jpg",
+  "/separei/separe (124).jpg",
+  "/separei/separe (125).jpg",
+  "/separei/separe (126).jpg",
+  "/separei/separe (127).jpg",
+  "/separei/separe (128).jpg",
+  "/separei/separe (129).jpg",
+  "/separei/separe (130).jpg",
+  "/separei/separe (131).jpg",
+  "/separei/separe (132).jpg",
+  "/separei/separe (133).jpg",
+  "/separei/separe (134).jpg",
+  "/separei/separe (135).jpg",
+  "/separei/separe (136).jpg",
+  "/separei/separe (137).jpg",
+  "/separei/separe (138).jpg",
+  "/separei/separe (139).jpg",
+  "/separei/separe (140).jpg",
+  "/separei/separe (141).jpg",
+  "/separei/separe (142).jpg",
+  "/separei/separe (143).jpg",
+  "/separei/separe (144).jpg",
+  "/separei/separe (145).jpg",
+  "/separei/separe (146).jpg",
 ];
