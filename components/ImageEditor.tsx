@@ -54,7 +54,7 @@ const ImageEditor: React.FC<ImageEditorProps> = ({ images }) => {
         </button>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
-        {separei.map((item, i) => {
+        {images.map((item, i) => {
           return (
             <motion.div
               onClick={() => {

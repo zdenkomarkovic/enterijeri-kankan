@@ -55,7 +55,7 @@ export default function Footer() {
             <div>
               <a href="mailto:kankan732@gmail.com">
                 <p className="text-muted text-wrap">
-                  Email:kankan732@gmail.com
+                  Email: kankan732@gmail.com
                 </p>
               </a>
             </div>
