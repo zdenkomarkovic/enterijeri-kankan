@@ -44,9 +44,10 @@ const Separei = () => {
 
         <h2 className="text-2xl md:text-4xl">Naš proces...</h2>
 
-        <div className="flex flex-col gap-5 md:flex-row md:gap-0 justify-around text-xl md:text-2xl pb-510 text-primary">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-5  text-xl md:text-2xl pb-510 text-primary">
           <motion.div
             whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 0.95 }}
             className="text-center space-y-3"
           >
             <Speech className="mx-auto w-12 h-12" />
@@ -54,6 +55,7 @@ const Separei = () => {
           </motion.div>
           <motion.div
             whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 0.95 }}
             className="text-center space-y-3"
           >
             <Lightbulb className="mx-auto w-12 h-12" />
@@ -61,6 +63,7 @@ const Separei = () => {
           </motion.div>
           <motion.div
             whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 0.95 }}
             className="text-center space-y-3"
           >
             <Hammer className="mx-auto w-12 h-12 " />
@@ -68,6 +71,7 @@ const Separei = () => {
           </motion.div>
           <motion.div
             whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 0.95 }}
             className="text-center space-y-3"
           >
             <Truck className="mx-auto w-12 h-12" />
