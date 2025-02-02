@@ -318,3 +318,16 @@ export const separei: string[] = [
   "/separei/separe (145).jpg",
   "/separei/separe (146).jpg",
 ];
+
+export const stolice: string[] = [
+  "/separei/stolice.jpg",
+  "/separei/stolice (2).jpg",
+  "/separei/stolice (3).jpg",
+  "/separei/stolice (4).jpg",
+  "/separei/stolice (5).jpg",
+  "/separei/stolice (6).jpg",
+  "/separei/stolice (7).jpg",
+  "/separei/stolice (8).jpg",
+  "/separei/stolice (9).jpg",
+  "/separei/stolice (10).jpg",
+];
