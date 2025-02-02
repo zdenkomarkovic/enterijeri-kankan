@@ -6,7 +6,11 @@ import Image from "@/node_modules/next/image";
 import { ChevronLeft, ChevronRight, CircleX } from "lucide-react";
 import { separei } from "@/constants/index";
 
-const ImageEditor = ({ images }) => {
+interface ImageEditorProps {
+  images: string[];
+}
+
+const ImageEditor: React.FC<ImageEditorProps> = ({ images }) => {
   const [imageIndex, setImageIndex] = useState(0);
   const [showImage, setShowImage] = useState(false);
 
