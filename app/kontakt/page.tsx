@@ -112,7 +112,7 @@ export default function Contact() {
               </a>
             </div>
           </div>
-          <div className="mx-6 md:mx-20 bg-muted rounded-3xl shadow-primary shadow-xl text-muted-foreground">
+          <div className="mx-6 md:mx-20 bg-muted rounded-3xl shadow-primary shadow-lg text-muted-foreground">
             <Form {...form}>
               <form
                 className="grid grid-cols-3 items-center p-4 lg:p-10"
