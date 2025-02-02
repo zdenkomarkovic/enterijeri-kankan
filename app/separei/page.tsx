@@ -127,7 +127,8 @@ const Separei = () => {
             return (
               <motion.div
                 onClick={() => {
-                  setImageIndex(i), setShowImage(true);
+                  setImageIndex(i);
+                  setShowImage(true);
                 }}
                 key={i}
                 whileHover={{ scale: 1.05 }}

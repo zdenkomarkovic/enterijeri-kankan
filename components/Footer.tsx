@@ -12,7 +12,7 @@ export default function Footer() {
       transition={{ delay: 0.5 }}
     >
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-gray-50">
-        <div className="text-center md:text-left md:grid md:grid-cols-3 gap-8 mx-auto">
+        <div className="text-center md:text-left md:grid md:grid-cols-3 gap-8 mx-auto items-center">
           <div>
             <ul className="pb-5 flex justify-around items-center md:pb-0 md:block md:space-y-2">
               <li>
@@ -22,8 +22,18 @@ export default function Footer() {
               </li>
 
               <li>
-                <Link href="/" className="text-muted hover:text-primary">
-                  Proizvodi
+                <Link href="/separei" className="text-muted hover:text-primary">
+                  Separei
+                </Link>
+              </li>
+              <li>
+                <Link href="/stolice" className="text-muted hover:text-primary">
+                  Stolice
+                </Link>
+              </li>
+              <li>
+                <Link href="/stolovi" className="text-muted hover:text-primary">
+                  Stolovi
                 </Link>
               </li>
 
