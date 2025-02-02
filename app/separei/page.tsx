@@ -1,10 +1,6 @@
 "use client";
-import React, { useState } from "react";
-import { Hammer, Truck, Lightbulb, Speech } from "lucide-react";
-import { motion } from "framer-motion";
+import React from "react";
 import { separei } from "@/constants/index";
-import Image from "@/node_modules/next/image";
-import { ChevronLeft, ChevronRight, CircleX } from "lucide-react";
 import ProcesCard from "@/components/ProcesCard";
 import ImageEditor from "@/components/ImageEditor";
 
