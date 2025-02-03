@@ -62,9 +62,9 @@ export default function Footer() {
             <div className="flex space-x-4 justify-center md:justify-start">
               <a
                 href="https://www.instagram.com/enterijeri_kankan/"
-                className="text-muted hover:text-primary"
+                className="text-muted hover:text-primary flex gap-3"
               >
-                <Instagram />
+                <Instagram /> enterijeri_kankan
               </a>
             </div>
           </div>

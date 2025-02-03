@@ -19,6 +19,7 @@ import {
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
+import { Mail } from "lucide-react";
 
 const contactFormSchema = z.object({
   name: z.string().min(2, { message: "Molimo unesite vase ime i prezime" }),
@@ -96,23 +97,26 @@ export default function Contact() {
                 "
                 className="py-[7px] flex border-b-[1px] border-primary"
               >
-                <button className="hover:scale-110 transition-transform duration-500 px-auto md:px-8">
-                  Email: kankan732@gmail.com
+                <button className="hover:scale-110 transition-transform duration-500 px-auto md:px-8 flex gap-4 items-center">
+                  <Mail className=" w-[30px] h-[30px]" /> kankan732@gmail.com
                 </button>
               </a>
-            </div>
-            <div className="pl-7 pt-4 lg:pt-12 text-[33px] lg:text-[40px]">
               <a
                 href="https://www.instagram.com/enterijeri_kankan/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className=""
+                className="py-[7px] flex border-b-[1px] border-primary "
               >
-                <FaInstagram className=" hover:scale-110 transition-transform duration-500" />
+                <button className="hover:scale-110 transition-transform duration-500 px-4 md:px-8 flex gap-4 items-center">
+                  {" "}
+                  <FaInstagram className=" text-[28px] lg:text-[30px]" />
+                  enterijeri_kankan
+                </button>
               </a>
             </div>
+            <div className="pl-4 md:pl-7 pt-4 lg:pt-12"></div>
           </div>
-          <div className="mx-6 md:mx-20 bg-muted rounded-3xl shadow-primary shadow-lg text-muted-foreground">
+          <div className="mx-6 md:mx-20 bg-muted rounded-3xl text-muted-foreground">
             <Form {...form}>
               <form
                 className="grid grid-cols-3 items-center p-4 lg:p-10"

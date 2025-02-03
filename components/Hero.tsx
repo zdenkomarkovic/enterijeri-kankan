@@ -5,19 +5,13 @@ import {
   CarouselContent,
   CarouselItem,
 } from "@/components/ui/carousel";
-
 import Fade from "embla-carousel-fade";
 import Autoplay from "embla-carousel-autoplay";
-
 import Hero1 from "../public/hero1.jpg";
 import Hero2 from "../public/hero2.jpg";
 import Hero3 from "../public/hero3.jpg";
-
 import Image from "next/image";
-import { ArrowRightIcon } from "lucide-react";
-
-import Link from "next/link";
-
+import { ArrowRightIcon, PhoneIcon } from "lucide-react";
 import { motion } from "framer-motion";
 
 const Hero = () => {
@@ -68,24 +62,14 @@ const Hero = () => {
           Separei i nameštaj po meri za ugostiteljske objekte
         </h1>
         <div className="flex flex-col gap-4 md:flex-row">
-          <Link href="/proizvodi">
+          <a href="tel:+381663216444">
             <motion.button
               whileHover={{ translateY: "-5px" }}
               whileTap={{ scale: 0.95 }}
-              className="flex items-center gap-2 bg-primary text-foreground px-4 py-2 md:px-8 md:py-3 rounded-lg font-medium"
-            >
-              Istražite naše proizvode
-              <ArrowRightIcon className="w-[18px]" />
-            </motion.button>
-          </Link>
-          <a href="tel:+3816000000">
-            <motion.button
-              whileHover={{ translateY: "-5px" }}
-              whileTap={{ scale: 0.95 }}
-              className="flex items-center gap-2 bg-transparent border-background border-[1px] rounded-lg px-4 md:px-8 md:py-3 py-2 font-medium"
+              className="flex items-center gap-2 bg-primary  rounded-lg px-4 md:px-8 md:py-3 py-2 font-medium"
             >
               Zakažite konsultaciju
-              <ArrowRightIcon className="w-[18px]" />
+              <PhoneIcon className="w-[18px]" />
             </motion.button>
           </a>
         </div>
