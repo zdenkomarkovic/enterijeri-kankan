@@ -11,7 +11,7 @@ import Hero1 from "../public/hero1.jpg";
 import Hero2 from "../public/hero2.jpg";
 import Hero3 from "../public/hero3.jpg";
 import Image from "next/image";
-import { ArrowRightIcon, PhoneIcon } from "lucide-react";
+import { PhoneIcon } from "lucide-react";
 import { motion } from "framer-motion";
 
 const Hero = () => {
