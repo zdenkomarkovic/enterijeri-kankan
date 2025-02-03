@@ -49,12 +49,14 @@ export default function Footer() {
             <div>
               {" "}
               <a href="tel:+38163216444">
-                <p className="text-muted">Telefon: +38163 216 444</p>
+                <p className="text-muted hover:text-primary">
+                  Telefon: +38163 216 444
+                </p>
               </a>
             </div>
             <div>
               <a href="mailto:kankan732@gmail.com">
-                <p className="text-muted text-wrap">
+                <p className="text-muted text-wrap  hover:text-primary">
                   Email: kankan732@gmail.com
                 </p>
               </a>
