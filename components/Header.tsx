@@ -169,8 +169,8 @@ export default function Header() {
           <Image
             src={Logo}
             alt="dm rustic 24"
-            width={50}
-            height={50}
+            width={45}
+            height={45}
             className="rounded-full"
           />
           <span
