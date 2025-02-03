@@ -97,8 +97,8 @@ export default function Contact() {
                 "
                 className="py-[7px] flex border-b-[1px] border-primary"
               >
-                <button className="hover:scale-110 transition-transform duration-500 px-4 md:px-8 flex gap-4 items-center">
-                  <Mail className=" w-[30px] h-[30px]" /> kankan732@gmail.com
+                <button className="hover:scale-110 transition-transform duration-500 px-auto md:px-8 flex gap-4 items-center">
+                  <Mail className=" w-[50px] h-[50px]" /> kankan732@gmail.com
                 </button>
               </a>
               <a
