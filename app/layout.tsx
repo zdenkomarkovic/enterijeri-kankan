@@ -31,6 +31,9 @@ export const metadata: Metadata = {
     "stolice",
     "stolice za ugostitelje",
   ],
+  alternates: {
+    canonical: "https://www.ciglice.rs/",
+  },
 };
 
 export default function RootLayout({
