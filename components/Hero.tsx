@@ -62,7 +62,7 @@ const Hero = () => {
           Separei i nameštaj po meri za ugostiteljske objekte
         </h1>
         <div className="flex flex-col gap-4 md:flex-row">
-          <a href="tel:+381663216444">
+          <a href="tel:+38163216444">
             <motion.button
               whileHover={{ translateY: "-5px" }}
               whileTap={{ scale: 0.95 }}

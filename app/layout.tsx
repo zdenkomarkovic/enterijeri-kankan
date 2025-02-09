@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     "stolice za ugostitelje",
   ],
   alternates: {
-    canonical: "https://www.ciglice.rs/",
+    canonical: "https://www.separei.rs/",
   },
 };
 
