@@ -36,6 +36,14 @@ export default function Footer() {
                   Stolovi
                 </Link>
               </li>
+              <li>
+                <Link
+                  href="/lezajevi"
+                  className="text-muted hover:text-primary"
+                >
+                  Ležajevi
+                </Link>
+              </li>
 
               <li>
                 <Link href="/" className="text-muted hover:text-primary">
